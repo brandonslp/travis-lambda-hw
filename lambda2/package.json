@@ -1,0 +1,16 @@
+{
+  "name": "lambda2",
+  "version": "1.0.0",
+  "description": "second lambda with travis",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "keywords": [
+    "lambda",
+    "travisa",
+    "aws"
+  ],
+  "author": "Brandonslp",
+  "license": "ISC"
+}
