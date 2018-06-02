@@ -1,0 +1,10 @@
+deploy:
+  provider: lambda
+  function_name: "helloworld"
+  region: "us-east-1"
+  role: "arn:aws:iam::103496338665:role/deploy"
+  runtime: "nodejs6.10"
+  handler_name: "handler"
+  imeout: 15
+  memory_size: 1024
+script: cd helloworld && npm install

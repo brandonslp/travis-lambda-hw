@@ -1,0 +1,16 @@
+{
+  "name": "helloworld",
+  "version": "1.0.0",
+  "description": "first lambda with travis",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "keywords": [
+    "lambda",
+    "travisa",
+    "aws"
+  ],
+  "author": "Brandonslp",
+  "license": "ISC"
+}
