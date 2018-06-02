@@ -10,5 +10,5 @@ let reponse = function(code, message) {
 
 exports.handler = (event, context, callback) => {
     // TODO implement
-    context.succeed(reponse(200, {travis: "Second function"}));
+    context.succeed(reponse(200, {travis: "Second function!"}));
 };

@@ -8,7 +8,7 @@ deploy:
   provider: lambda
   function_name: $LAMBDA_FUNCTION
   region: "us-east-1"
-  role: "arn:aws:iam::103496338665:role/deploy"
+  role: $LAMBDA_ARN
   runtime: "nodejs6.10"
   handler_name: "handler"
   imeout: 15
